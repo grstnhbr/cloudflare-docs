@@ -1,0 +1,72 @@
+---
+pcx_content_type: reference
+description: Browse and deploy pre-configured Gateway policy templates from the Zero Trust dashboard.
+products:
+  - cloudflare-one
+title: Policy templates
+sidebar:
+  order: 2
+head:
+  - tag: title
+    content: Gateway policy templates
+tags:
+  - DNS
+  - HTTP
+  - Network
+---
+
+The **Policy templates** page in the Zero Trust dashboard provides a curated catalog of pre-configured Gateway policies that you can deploy with a single action. Templates cover common security, compliance, productivity, and privacy use cases across DNS, HTTP, and network policy types.
+
+## Access policy templates
+
+To view and deploy policy templates:
+
+1. In [Zero Trust](https://one.dash.cloudflare.com/), go to **Traffic Policies** > **Policy templates**.
+2. Browse the catalog or use the search bar to find templates by name or description.
+3. Use the **Filters** button to narrow results by category (Security, Compliance, Productivity, Privacy) or policy type (DNS, HTTP, Network).
+
+## Deploy a template
+
+To deploy a template as a new Gateway policy:
+
+1. Find the template you want to deploy.
+2. Select **Add policy**. The policy will be created in your account with the template's pre-configured settings.
+
+You can deploy the same template multiple times. Each deployment creates a separate policy that you can edit independently.
+
+## View in builder
+
+To preview a template's selectors and settings in the policy builder before deploying:
+
+1. Select the overflow menu (three dots) on a template card.
+2. Select **View in builder**. The policy builder will open with the template's name, description, action, and traffic selectors pre-populated.
+
+From the builder, you can modify the policy before saving or discard it without creating a rule.
+
+## Copy as JSON
+
+To copy a template's API payload:
+
+1. Select the overflow menu (three dots) on a template card.
+2. Select **Copy as JSON** or **Copy as cURL**. The template payload will be copied to your clipboard in the selected format.
+
+You can use the copied payload to create policies via the [Gateway rules API](/api/resources/zero_trust/subresources/gateway_rules/methods/create/) or integrate templates into infrastructure-as-code workflows.
+
+## Template categories
+
+Templates are organized into four categories:
+
+| Category | Description |
+| --- | --- |
+| **Security** | Block threats such as malware, phishing, command and control, and newly registered domains. Includes browser isolation for high-risk sites and tenant control headers. |
+| **Compliance** | Enforce acceptable use policies, control AI application access, detect sensitive data with DLP profiles, and restrict SaaS application usage. |
+| **Productivity** | Manage access to social media, streaming, gaming, and other distracting content. Includes time-based policies for business hours enforcement. |
+| **Privacy** | Bypass TLS inspection for applications that use certificate pinning. |
+
+## Common policy references
+
+For detailed guidance on building policies from scratch, refer to the common policies documentation for each policy type:
+
+- [Common DNS policies](/cloudflare-one/traffic-policies/dns-policies/common-policies/)
+- [Common HTTP policies](/cloudflare-one/traffic-policies/http-policies/common-policies/)
+- [Common network policies](/cloudflare-one/traffic-policies/network-policies/common-policies/)
