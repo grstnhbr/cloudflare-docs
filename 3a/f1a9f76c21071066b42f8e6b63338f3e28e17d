@@ -1,0 +1,163 @@
+public/__redirects
+  s_dbf07bf210cfd5::t_2e8899889e0f10 2691-2692,2694,2851-2859
+src/content/changelog/access/2026-01-08-Access-audit-log-for-DoH-users.mdx
+  s_1e8f9642eb4453::t_e528dca333ac0a 9
+src/content/changelog/browser-isolation/2026-07-07-authorization-proxy-endpoint-support.mdx
+  s_1e8f9642eb4453::t_2ec2d50bad7645 10,12,14
+src/content/changelog/cloudflare-one/2026-07-28-gateway-maximum-dns-ttl.mdx
+  s_1e8f9642eb4453::t_475a84409f2111 17
+src/content/changelog/gateway/2025-03-21-pdns-user-locations-role.mdx
+  s_1e8f9642eb4453::t_ad1260186d2128 10,16,20
+src/content/changelog/gateway/2026-03-04-gateway-authorization-proxy-open-beta.mdx
+  s_1e8f9642eb4453::t_041c9384b9f2c1 9,11,19,24-27,30
+src/content/changelog/gateway/2026-04-24-nsl-all-onramps.mdx
+  s_1e8f9642eb4453::t_a93e93af1b77b3 10
+src/content/changelog/gateway/2026-04-29-gateway-authorization-proxy-pac-files-ga.mdx
+  s_1e8f9642eb4453::t_edade972404a68 9,11,15
+src/content/changelog/gateway/2026-08-12-traffic-source-selector.mdx
+  s_1e8f9642eb4453::t_0ded7da704a68f 20
+src/content/docs/1.1.1.1/setup/google-cloud.mdx
+  s_1e8f9642eb4453::t_13ebd76b0b3947 23
+src/content/docs/byoip/index.mdx
+  s_1e8f9642eb4453::t_2cbe7555991caa 30
+src/content/docs/cloudflare-one/access-controls/applications/http-apps/index.mdx
+  s_1e8f9642eb4453::t_e31f0117d7564c 23
+src/content/docs/cloudflare-one/changelog/gateway.mdx
+  s_1e8f9642eb4453::t_7f6b6712aaf2c5 34
+src/content/docs/cloudflare-one/insights/analytics/network-sessions.mdx
+  s_1e8f9642eb4453::t_fed4c353eff82b 13
+src/content/docs/cloudflare-one/insights/logs/dashboard-logs/gateway-logs/index.mdx
+  s_1e8f9642eb4453::t_3dbaced30e2e97 68,79,178,212,246,286
+src/content/docs/cloudflare-one/networks/routes/reserved-ips.mdx
+  s_1e8f9642eb4453::t_5c8f7242120944 44
+src/content/docs/cloudflare-one/remote-browser-isolation/setup/index.mdx
+  s_1e8f9642eb4453::t_96e9ece3209293 22-23
+src/content/docs/cloudflare-one/remote-browser-isolation/setup/non-identity.mdx
+  s_1e8f9642eb4453::t_65efe2e39fb869 11,22
+src/content/docs/cloudflare-one/reusable-components/custom-pages/gateway-block-page.mdx
+  s_1e8f9642eb4453::t_e1758265f22c80 153
+src/content/docs/cloudflare-one/roles-permissions.mdx
+  s_1e8f9642eb4453::t_f8808ce297ecb9 36
+src/content/docs/cloudflare-one/team-and-resources/devices/cloudflare-one-client/configure/modes/index.mdx
+  s_1e8f9642eb4453::t_a9597600c09ac6 18
+src/content/docs/cloudflare-one/team-and-resources/devices/cloudflare-one-client/configure/route-traffic/split-tunnels.mdx
+  s_1e8f9642eb4453::t_b94ee340846cb1 58
+src/content/docs/cloudflare-one/team-and-resources/devices/cloudflare-one-client/deployment/mdm-deployment/parameters.mdx
+  s_1e8f9642eb4453::t_d1a01db1480a07 42
+src/content/docs/cloudflare-one/team-and-resources/devices/cloudflare-one-client/set-up.mdx
+  s_1e8f9642eb4453::t_2c60b20e87def1 77
+src/content/docs/cloudflare-one/traffic-policies/dns-policies/index.mdx
+  s_1e8f9642eb4453::t_6a4745ccb3ee15 517
+src/content/docs/cloudflare-one/traffic-policies/dns-policies/maximum-dns-ttl.mdx
+  s_1e8f9642eb4453::t_f52756919b8f0d 58,68
+src/content/docs/cloudflare-one/traffic-policies/dns-policies/test-dns-filtering.mdx
+  s_1e8f9642eb4453::t_509d13214c1cb7 22,125,128
+src/content/docs/cloudflare-one/traffic-policies/egress-policies/dedicated-egress-ips.mdx
+  s_1e8f9642eb4453::t_06596ec1707ae1 174
+src/content/docs/cloudflare-one/traffic-policies/egress-policies/host-selectors.mdx
+  s_1e8f9642eb4453::t_d7e6299ed8b64a 76
+src/content/docs/cloudflare-one/traffic-policies/get-started/dns.mdx
+  s_1e8f9642eb4453::t_e69769110f1903 49,56
+src/content/docs/cloudflare-one/traffic-policies/global-policies.mdx
+  s_1e8f9642eb4453::t_3d29fee2730c56 66
+src/content/docs/cloudflare-one/traffic-policies/index.mdx
+  s_1e8f9642eb4453::t_847b34cea6d1c6 163-164
+src/content/docs/cloudflare-one/traffic-policies/network-policies/common-policies.mdx
+  s_1e8f9642eb4453::t_f13519693401bd 207,280
+src/content/docs/cloudflare-one/traffic-policies/proxy-endpoints/configure-pac-file-on-device.mdx
+  s_1e8f9642eb4453::t_afefe9b4799cc8 15,23-24,63,228,233
+src/content/docs/cloudflare-one/traffic-policies/proxy-endpoints/index.mdx
+  s_7b12f9d587f9e8::t_0e1c7fb6350c3e 8,101,116,248,257,323,327,333,361,469,480,501
+src/content/docs/cloudflare-one/traffic-policies/proxy.mdx
+  s_1e8f9642eb4453::t_bd5e7503191de2 19,123
+src/content/docs/cloudflare-one/traffic-policies/resolver-endpoints/dns-over-https.mdx
+  s_1e8f9642eb4453::t_594f226de696f7 15,37
+src/content/docs/cloudflare-one/traffic-policies/resolver-endpoints/dns-over-tls.mdx
+  s_1e8f9642eb4453::t_77f96af3cb1170 24-25
+src/content/docs/cloudflare-one/traffic-policies/resolver-endpoints/index.mdx
+  s_1e8f9642eb4453::t_526a958134c369 3,6,10-11,27,45,51,57
+src/content/docs/cloudflare-one/traffic-policies/resolver-policies.mdx
+  s_1e8f9642eb4453::t_4b8f71db0bb67e 89-90,92
+src/content/docs/cloudflare-one/traffic-policies/tiered-policies/tenant-api.mdx
+  s_1e8f9642eb4453::t_d7c5060ee09124 39
+src/content/docs/cloudflare-wan/zero-trust/connectivity-options.mdx
+  s_1e8f9642eb4453::t_07d083ac006755 110,113,132,467-468
+src/content/docs/dns/internal-dns/connectivity.mdx
+  s_1e8f9642eb4453::t_aac59131bff523 16,20
+src/content/docs/fundamentals/manage-members/roles.mdx
+  s_1e8f9642eb4453::t_dce7d32cfbba07 45
+src/content/docs/learning-paths/cybersafe/gateway-onboarding/gateway-connection-methods.mdx
+  s_1e8f9642eb4453::t_3bb5064f52eb78 13
+src/content/docs/learning-paths/cybersafe/gateway-onboarding/gateway-update-local-resolver.mdx
+  s_1e8f9642eb4453::t_af7bcb5bb79e52 76
+src/content/docs/learning-paths/secure-internet-traffic/build-dns-policies/onboard-dns.mdx
+  s_1e8f9642eb4453::t_de3481f08973d2 45
+src/content/docs/learning-paths/secure-internet-traffic/configure-device-agent/pac-files.mdx
+  s_1e8f9642eb4453::t_da2f2c7194c7a5 52
+src/content/docs/learning-paths/secure-internet-traffic/connect-devices-networks/choose-on-ramp.mdx
+  s_1e8f9642eb4453::t_e5bab05f23432b 77
+src/content/docs/reference-architecture/architectures/sase.mdx
+  s_1e8f9642eb4453::t_cd72da13b3f654 393,455
+src/content/docs/reference-architecture/architectures/security.mdx
+  s_1e8f9642eb4453::t_df2dff6b7ed665 546
+src/content/docs/reference-architecture/design-guides/securing-guest-wireless-networks.mdx
+  s_1e8f9642eb4453::t_4009fc2864c75d 52,124
+src/content/docs/reference-architecture/diagrams/sase/gateway-dns-for-isp.mdx
+  s_1e8f9642eb4453::t_ca263f5b6dd9d1 31,34,63
+src/content/docs/reference-architecture/diagrams/sase/gateway-for-protective-dns.mdx
+  s_1e8f9642eb4453::t_0a59ef4db2e590 41,101
+src/content/docs/reference-architecture/diagrams/sase/zero-trust-and-virtual-desktop-infrastructure.mdx
+  s_1e8f9642eb4453::t_8e6b6611714abb 94-95
+src/content/docs/reference-architecture/diagrams/security/securing-data-in-transit.mdx
+  s_1e8f9642eb4453::t_795855d8867d85 64
+src/content/docs/reference-architecture/diagrams/security/securing-data-in-use.mdx
+  s_1e8f9642eb4453::t_b8bf758d92a016 37
+src/content/partials/cloudflare-one/gateway/add-locations.mdx
+  s_1e8f9642eb4453::t_222084271bfe37 15,18
+src/content/partials/cloudflare-one/gateway/egress-selector-onramps.mdx
+  s_1e8f9642eb4453::t_2d6fb7c0b91577 10
+src/content/partials/cloudflare-one/gateway/selectors/location.mdx
+  s_1e8f9642eb4453::t_f24b1daa499978 5
+src/content/partials/cloudflare-one/gateway/selectors/proxy-endpoint.mdx
+  s_1e8f9642eb4453::t_b798407af7aced 5
+src/content/partials/cloudflare-one/troubleshooting/gateway.mdx
+  s_1e8f9642eb4453::t_a4f51af53230e8 27
+src/content/partials/cloudflare-one/tunnel/warp-to-tunnel-client.mdx
+  s_1e8f9642eb4453::t_53910d652d8a18 7
+src/content/partials/networking-services/cloudflare-one-connectivity-options.mdx
+  s_1e8f9642eb4453::t_481854172f1673 109,112,131,466-467
+worker/index.worker.test.ts
+  s_dbf07bf210cfd5::t_19e79153078bf3 102-158
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "3af1a9f76c21071066b42f8e6b63338f3e28e17d",
+  "prompts": {},
+  "sessions": {
+    "s_1e8f9642eb4453": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f9d193138ffeG5wxA28D02Ux8T",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "michi <michi@cloudflare.com>"
+    },
+    "s_7b12f9d587f9e8": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f54c10ec3ffex3WurTLPpSAy1z",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "michi <michi@cloudflare.com>"
+    },
+    "s_dbf07bf210cfd5": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_f507a533effegBOIpvkbMnzz3M",
+        "model": "gpt-5.6-sol"
+      },
+      "human_author": "michi <michi@cloudflare.com>"
+    }
+  }
+}
