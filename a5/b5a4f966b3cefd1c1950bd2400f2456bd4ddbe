@@ -1,0 +1,27 @@
+src/content/changelog/cloudflare-one/2026-10-13-gateway-dns64-opt-in.mdx
+  s_360a7436b90289::t_b295c0fdabf872 1-21
+src/content/docs/cloudflare-one/traffic-controls/resolver-endpoints/dns-over-https.mdx
+  s_360a7436b90289::t_e0454df6334985 122-139
+src/content/docs/cloudflare-one/traffic-controls/resolver-endpoints/dns64.mdx
+  s_360a7436b90289::t_5e79718f3b1c80 1-86
+src/content/docs/cloudflare-one/traffic-controls/resolver-endpoints/index.mdx
+  s_360a7436b90289::t_d6fb5c61a633c7 53-56
+src/content/partials/cloudflare-one/gateway/add-locations.mdx
+  s_360a7436b90289::t_c3667307fbf0a4 22
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.6.10",
+  "base_commit_sha": "a5b5a4f966b3cefd1c1950bd2400f2456bd4ddbe",
+  "prompts": {},
+  "sessions": {
+    "s_360a7436b90289": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_ef2e5eda9ffe2pmDnNVRR2aMyn",
+        "model": "gpt-6.1-sol"
+      },
+      "human_author": "Adrian Maceiras <amaceiras@cloudflare.com>"
+    }
+  }
+}
